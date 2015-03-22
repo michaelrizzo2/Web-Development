@@ -7,3 +7,5 @@ Printing hello world without a button
 Printing hello world with a button that was launched by a javascript event launcher
 
 Styled a link with various css properties
+
+Rounded the corners of a image with different border radius values
