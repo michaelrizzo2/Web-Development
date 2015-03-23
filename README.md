@@ -11,3 +11,9 @@ Styled a link with various css properties
 Rounded the corners of a image with different border radius values
 
 filled a whole page with a div element
+
+put a drop shadow around an image
+
+put an image inside a container and hid the rest of the image
+
+Make text change color when highlighted
