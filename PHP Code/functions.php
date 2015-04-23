@@ -21,6 +21,15 @@
 		{
 			familyName($name_entry);
 		}
+
+		function familyNameYear($name,$year)
+		{
+			echo "$name was born in $year<br>";
+		}
+
+		familyNameYear("Hege","1975");
+		familyNameYear("Stale","1978");
+		familyNameYear("Kai Jim","1983");
 	?>
 </body>
 
