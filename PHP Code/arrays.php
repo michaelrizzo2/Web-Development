@@ -15,6 +15,12 @@
 		{
 			echo "The array entry is $my_array[$x] <br>";
 		}
+		//This will show how to set up an associative array and loop through it
+		$name_age=array("Michael"=>26,"Martha"=>65,"Robert"=>65);
+		foreach ($name_age as $key=>$value)
+		{
+			echo "Key is $key and value is $value<br>";		
+		}
 
 	?>
 </body>
