@@ -44,6 +44,14 @@
 		setHeight();//This will use the default value of 50
 		setHeight(135);
 		setHeight(80);
+		//Function with a return statement
+		function sum($x,$y)
+		{
+			$z=$x+$y;
+			return $z;	
+		}
+
+		echo "5+10 is ".sum(5,10);
 
 	?>
 </body>
