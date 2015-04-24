@@ -7,7 +7,7 @@
 	<?php 
 		class person
 		{
-		
+			var $name;	
 		}
 	?>
 </body>
