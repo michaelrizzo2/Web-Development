@@ -5,6 +5,7 @@
 
 <body>
 	<?php 
+		include("class_lib.php");
 	?>
 </body>
 
