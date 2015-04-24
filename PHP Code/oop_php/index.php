@@ -6,6 +6,7 @@
 <body>
 	<?php 
 		include("class_lib.php");
+		$michael=new person();
 	?>
 </body>
 
