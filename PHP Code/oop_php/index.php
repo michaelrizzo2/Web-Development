@@ -5,6 +5,8 @@
 
 <body>
 	<?php 
+		//Step 7 include class code 
+		include("class_lib.php");
 	?>
 </body>
 
