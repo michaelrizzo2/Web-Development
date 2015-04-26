@@ -10,6 +10,10 @@
 	{
 		//Step 3 This will add a data variable to our person class
 		var $name;
+		//Step 15 using public,private, and protected to modify acces to instance variables
+		public $height;
+		protected $social_insurance;
+		private $pinn_number;
 
 		//Step 13 setting up constructor
 		function __construct($new_name)
