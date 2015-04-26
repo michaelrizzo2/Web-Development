@@ -11,6 +11,17 @@
 		//Step 3 This will add a data variabe to our person class
 		var $name;
 
+		//Step 4,5 and 6 getter and setter methods, and $this keyword for instance variables
+		function set_name($new_name)
+		{
+			$this->name=$new_name;
+		}
+
+		function get_name()
+		{
+			return $this->name;	
+		}
+
 	}
 	?>
 </body>
