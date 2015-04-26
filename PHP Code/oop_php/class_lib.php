@@ -5,7 +5,7 @@
 
 <body>
 	<?php 
-		//Step 1 This will set up the person class
+		//Step 2 This will set up the person class
 	class person
 	{
 
