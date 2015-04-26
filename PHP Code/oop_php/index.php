@@ -11,6 +11,8 @@
 		$michael=new person();
 		//Step 10 set an objects properties
 		$michael->set_name("Michael Rizzo");
+		//Step 11 Accessing an objects Data
+		echo "Michael's full name is ". $michael->get_name();
 	?>
 </body>
 
