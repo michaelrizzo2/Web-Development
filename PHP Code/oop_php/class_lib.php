@@ -56,7 +56,6 @@
 	}
 
 	//Step 21 Overriding method from parent class
-	protected function set_name($new_name)
 	{
 		if(name=="Stefan Lamp")
 		{
@@ -66,7 +65,9 @@
 		//Step 22 accessing method from parent class
 		else if (name=="Johnny Fingers")
 		{
-			person::set_name($new_name);
+			//person::set_name($new_name);
+			//Step 23 to refererence just the parent class version of the method we can do 
+			parent::set_name($new_name);
 		}
 	}
 	?>
