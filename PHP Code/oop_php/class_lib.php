@@ -28,7 +28,7 @@
 		{
 			if ($this->name !="Jimmy Two Guns")
 			{
-					
+				$this->name=strtoupper($new_name);	
 			}
 			//$this->name=$new_name;
 		}
