@@ -12,9 +12,10 @@
 		//Step 10 set an objects properties
 		//$michael->set_name("Michael Rizzo");
 		//Step 14 create object with constructor
-		$michael=new person("Michael Rizzo");
+		$michael=new person("Michael Rizzo",646916);
 		//Step 11 Accessing an objects Data
 		echo "Michael's full name is ". $michael->get_name();
+		echo "Michael's pinn number is ". $michael->get_pinn_number();
 	?>
 </body>
 
