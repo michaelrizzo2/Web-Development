@@ -23,9 +23,14 @@
 
 		}
 		//Step 4,5 and 6 getter and setter methods, and $this keyword for instance variables
-		function set_name($new_name)
+		//Step 21 protected function which will be accessed by child class
+		protected function set_name($new_name)
 		{
-			$this->name=$new_name;
+			if ($this->name !="Jimmy Two Guns")
+			{
+					
+			}
+			//$this->name=$new_name;
 		}
 
 		function get_name()
@@ -48,6 +53,15 @@
 			person::__construct($new_name,$new_number);
 		}
 	
+	}
+
+	//Step 21 Overriding method from parent class
+	protected function set_name($new_name)
+	{
+		if(name=="Stefan Lamp")
+		{
+			$this->name=$new_name;
+		}	
 	}
 	?>
 </body>
