@@ -55,15 +55,16 @@
 	
 	}
 
+	function set_name($new_name)
 	//Step 21 Overriding method from parent class
 	{
-		if(name=="Stefan Lamp")
+		if($name=="Stefan Lamp")
 		{
 			$this->name=$new_name;
 		}	
 
 		//Step 22 accessing method from parent class
-		else if (name=="Johnny Fingers")
+		else if ($name=="Johnny Fingers")
 		{
 			//person::set_name($new_name);
 			//Step 23 to refererence just the parent class version of the method we can do 
