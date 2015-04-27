@@ -33,9 +33,10 @@
 			return $this->name;	
 		}
 
+		//Step 17 Restricting access to methods
 		public function get_pinn_number()
 		{
-			return $this->$pinn_number;	
+			return $this->pinn_number;	
 		}
 
 	}
