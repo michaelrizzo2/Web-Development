@@ -40,6 +40,15 @@
 		}
 
 	}
+	//Step 18 and 19 setting up child class to inherit properties and constructors for base class
+	class employee extends person
+	{
+		function __construct($new_name,$new_number)	
+		{
+			person::__construct($new_name,$new_number);
+		}
+	
+	}
 	?>
 </body>
 
