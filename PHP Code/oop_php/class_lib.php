@@ -16,9 +16,11 @@
 		private $pinn_number;
 
 		//Step 13 setting up constructor
-		function __construct($new_name)
+		function __construct($new_name,$new_number)
 		{
 			$this->name=$new_name;
+			$this->pinn_number=$new_number;
+
 		}
 		//Step 4,5 and 6 getter and setter methods, and $this keyword for instance variables
 		function set_name($new_name)
@@ -29,6 +31,11 @@
 		function get_name()
 		{
 			return $this->name;	
+		}
+
+		public function get_pinn_number()
+		{
+			return $this->$pinn_number;	
 		}
 
 	}
