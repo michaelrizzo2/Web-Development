@@ -62,6 +62,11 @@
 		{
 			$this->name=$new_name;
 		}	
+
+		else if (name=="Johnny Fingers")
+		{
+			person::set_name($new_name);
+		}
 	}
 	?>
 </body>
