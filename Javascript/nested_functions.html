@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Nested Functions</title>
+	</head>
+	<body>
+		<script>
+			var text="hello";
+			function decorate(text)
+			{
+				return " +++ "+text+" +++ ";
+			}
+			document.write(decorate(text))
+			function decorate_more(text)
+			{
+				var a=decorate(text);
+				return "!!! " + a +" !!!"
+			}
+		document.write(decorate_more(text))	
+			
+		</script>
+	</body>
+</html>
