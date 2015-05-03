@@ -1,0 +1,30 @@
+<html>
+	<head>
+		<title> undefined in Javascript</title>
+		<meta charset="utf-8">
+	</head>
+	<body>
+		<script>
+			//Setting up object
+			var user={
+				name:"peter",
+				score:100,
+				country:"Chile",
+				pets:["pet1","pet2","et"],
+				profile:
+				{
+					type:"private",
+					account:"premium"
+				}
+			};
+			//Is the property in the object?
+			if ('profile' in user)
+			{
+				console.log("the user has a profile");	
+			}
+
+			//Demonstrating undefined result in object
+			console.log(user.photo)
+		</script>
+	</body>
+</html>
