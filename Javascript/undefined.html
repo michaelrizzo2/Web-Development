@@ -24,8 +24,13 @@
 			}
 
 			//Demonstrating undefined result in object
-			console.log(user.photo)
-			console.log(user['photo'])
+			console.log(user.photo);
+			console.log(user['photo']);
+
+			if (!user.photo)
+			{
+				document.writeln("photo is not present");
+			}
 		</script>
 	</body>
 </html>
