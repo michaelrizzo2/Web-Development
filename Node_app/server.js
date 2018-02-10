@@ -1,5 +1,6 @@
 var http=require("http");
-
+function start()
+{
 function onRequest(request,response)
 {
     console.log("Request Received")
@@ -8,5 +9,11 @@ function onRequest(request,response)
     response.end();
 }
 
+
+
 http.createServer(onRequest).listen(8888);
 console.log("Server has Started")
+
+}
+
+exports.start=start;
