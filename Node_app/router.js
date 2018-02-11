@@ -8,7 +8,7 @@ function route(handle,pathname)
 
     else
     {
-        console.log("No Request handler found for" + pathname)
+        console.log("No Request handler found for " + pathname)
         return "404 Website Not Found"
     }
 }
