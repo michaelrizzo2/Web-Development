@@ -37,8 +37,7 @@ function  Square(props){
       }
 
       else
-      {
-          status="Next Player: "+(this.state.xIsNext? 'X' :'O')
+      {          status="Next Player: "+(this.state.xIsNext? 'X' :'O')
       }
       return (
         <div>
